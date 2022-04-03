@@ -13,7 +13,17 @@ const styles = {
   pastHour: 'text-gray-400',
   chartContainer: 'text-5xl flex justify-center -full h-1/3 text-white mt-11 mb-11 mb-11',
   buyingPowerContainer: 'w-full border-t mb-24 border-b h-16 border-[#30363b]flex justify-between item',
-  
+  buyingPowerTitle:'text-white font-bolder text-lg',
+  buyingPowerAmount: 'text-white font-bolder text-xl',
+  notice: 'flex boreder border-[#30363b] mx-11 my-4 p-5 flex-col flex-1',
+  noticeContainer: 'flex-1',
+  noticeTitle: 'text-gray-500',
+  noticeMessage: 'text-white font-bold',
+  noticeCTA: 'font-bold text-green-500 cursor-pointer mt-5',
+  rightMain: 'flex flex-col flex-1 h-4/5 bg-[#1E2123] mt-6 rounded-lg overflow-y-scroll noScroll',
+  rightMainItem: 'flex items-center text-white p-5 border-b border-[#30363b]',
+  ItemTitle: 'flex-1 font-bold',
+  moreOptions: 'cursor-pomter text-xl',
 
 }
 export default function Home() {
